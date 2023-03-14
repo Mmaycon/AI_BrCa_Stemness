@@ -16,7 +16,7 @@ library(readr)
 # Load Ref Sobj
 # Check meta.data info - If necessary, add it
 # Sobj_Ref = readRDS("/mnt/plummergrp/maycon/Figures_to_paper/Ref_dset/Reference_dataset_standart_seut_pipeline_noNormal_stemnesscomputed.rds") - stemnesspredicted to normal samples together with tumors
-Sobj_Ref = readRDS("/mnt/plummergrp/maycon/Figures_to_paper/Ref_dset/Reference_dataset_standart_seut_pipeline_NEW_noNormal_stemnesscomputed.rds")
+Sobj_Ref = readRDS("/mnt/plummergrp/maycon/Figures_to_paper/Ref_dset/Reference_dataset_standart_seut_pipeline_NEW_STEMNESScomputed.rds")
 dim(Sobj_Ref) # 27719 80682
 head(Sobj_Ref@meta.data)
 names(Sobj_Ref@meta.data)
